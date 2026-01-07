@@ -20,7 +20,7 @@ st.write("Predict student exam scores using **KNN Regression**")
 # -------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("Exam_Score_Prediction.csv")
+    return pd.read_csv("Exam_Score_Prediction.pkl")
 
 df = load_data()
 st.subheader("📊 Dataset Preview")
